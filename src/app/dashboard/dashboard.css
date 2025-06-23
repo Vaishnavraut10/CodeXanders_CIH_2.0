@@ -1,0 +1,22 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.sub-heading{
+  margin-top: 40px;
+}
+
+.sub-heading {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

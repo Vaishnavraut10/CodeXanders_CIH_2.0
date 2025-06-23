@@ -1,0 +1,86 @@
+*{
+      margin: 0;
+      padding:0 ;
+}
+     :root {
+ --text-color: #003349;
+}
+
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+       margin: 10px 0 0 -200px;
+     
+}
+.container ul{
+      display: flex;
+      align-items: center;
+      background-color: white ;
+      border-radius: 30px;
+      margin: -3px -300px -10px 0;
+      padding: 5px 20px;
+}
+.home,.search,.helpline,.Signin_signup{
+      display: flex;
+      margin: 10px;
+      align-items: center;
+      justify-content: center;
+
+}
+.home{
+      text-decoration: none;
+}
+.home,.search,.helpline,.Signin_signup li{
+      list-style: none;
+      color: var(--text-color);
+       font-size: 18px;
+        text-decoration: none;
+        
+      
+}
+.nav_link{
+      text-decoration: none;
+}
+.nav_link2{
+      text-decoration: none;
+      margin: 15px 45px 15px 13px;
+      font-size: 20px;
+}
+.app_name{
+      font-size: 3rem;
+      color: white;
+      color: var(--text-color);
+      display: flex;
+      align-items: center;
+      margin-left: -120px;
+}
+.app_name img{
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+}
+.Cognitia_features_ul{
+      display: flex;
+      align-items: center;
+      float: right;
+}
+.Cognitia_features_ul li{
+      list-style: none;
+      margin: 18px;
+      color: var(--text-color);
+}
+
+.Signin_signup p{
+            font-size: 20px;
+            margin-right: 10px;
+}
+.Signin_signup{
+      background-color: rgb(255, 183, 0); 
+      border-radius: 20px;
+      
+}
+.dash{
+      width: 1px;
+      height: 10px;
+}

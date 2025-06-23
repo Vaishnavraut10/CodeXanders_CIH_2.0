@@ -1,0 +1,29 @@
+.main-container{
+      display: flex;
+      background: white;
+      width: 95%;
+      border-radius: 20px;
+      margin: 0 0 0 2.5%;
+      align-items: center;
+      justify-content:center ;
+}
+.hero_img img{
+      width: 600px;
+      height: 600px;
+      margin-left: 25px;
+}
+.hero_text p{
+      font-size: 3.5rem;
+      line-height: 60px;
+      font-weight: 600;
+}
+.track_now_btn{
+      padding: 17px 60px;
+      background: var(--text-color);
+      color: white;
+      outline: none;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 20px;
+}

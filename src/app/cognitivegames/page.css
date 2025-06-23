@@ -1,0 +1,66 @@
+     :root {
+ --text-color: #003349;
+}
+.heading{
+      font-size: 2.2rem;
+      margin: 50px 0 0 20px;
+      padding: 10px;
+}
+
+.main_cont{
+ background-color: white;
+ width: 95%;
+ border-radius: 20px;
+margin-left: 40px;
+
+}
+.small_des{
+      font-size: 1.8rem;
+      margin: 18px 0 35px 25px;
+}
+.games_box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 100px;
+}
+
+.box{
+      text-align: center;
+      border: 1px solid rgb(203, 203, 203);
+      margin: 10px;
+      width: 28%;
+      padding-bottom: 100px;
+     box-shadow: 5px 5px 6px rgb(197, 197, 197);
+}
+.box img{
+ width: 400px;
+ height: 200px;
+ 
+}
+.box button{
+      margin: 20px 0 50px 0;
+      outline: none;
+      border: none;
+      font-size: 1.3rem;
+      padding: 15px 35px;
+      background-color: var(--text-color);
+      color: white;
+      border-radius: 30px;
+      
+}
+.box button:hover{
+      background-color: rgb(200, 200, 200);
+      color: black;
+      cursor: pointer;
+}
+.test{
+      font-size: 1.7rem;
+      margin: 30px 0;
+      font-weight: 600;
+
+}
+.description{
+      font-size: 1.3rem;
+      margin: 15px 0;
+}
