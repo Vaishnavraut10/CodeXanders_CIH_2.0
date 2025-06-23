@@ -12,8 +12,8 @@
 }
 
 .slider-container {
-  width: 600px;
-  height: 300px;
+  width: 750px;
+  height: 400px;
   display: flex;
   border-radius: 20px;
   overflow: hidden;
@@ -45,7 +45,7 @@
 }
 
 .left-panel {
-  background-color: #6a0dad;
+background-color: #57ebdc;
   color: white;
 }
 
@@ -69,16 +69,16 @@
 
 .text-content h2 {
   margin-bottom: 10px;
-  font-size: 2rem;
+  font-size: 2.6rem;
 }
 
 .text-content p {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
 .text-content button {
-  padding: 10px 20px;
+  padding: 15px 35px;
   background-color: white;
   color: #6a0dad;
   border: none;

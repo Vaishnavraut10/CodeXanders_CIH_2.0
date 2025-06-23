@@ -18,7 +18,7 @@
       align-items: center;
       background-color: white ;
       border-radius: 30px;
-      margin: -3px -300px -10px 0;
+      margin: -3px -300px 10px 0;
       padding: 5px 20px;
 }
 .home,.search,.helpline,.Signin_signup{
@@ -64,6 +64,7 @@
       display: flex;
       align-items: center;
       float: right;
+      
 }
 .Cognitia_features_ul li{
       list-style: none;
@@ -83,4 +84,8 @@
 .dash{
       width: 1px;
       height: 10px;
+}
+.down_icon{
+      margin-left: -40px;
+      margin-right: 35px;
 }

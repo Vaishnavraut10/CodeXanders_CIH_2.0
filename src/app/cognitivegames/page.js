@@ -28,10 +28,10 @@ const router = useRouter();
                
             </div>
               
-                  <div class="box">
+                  <div class="box" id='reaction_box'>
                         <img src="./assets/—Pngtree—aerial football guard_20624649.png" alt=""/>
                         <p className='test'>Reaction Speed text</p>
-                        <p className='description'>Measure your reflexes by reacting to a visual cue.</p>
+                        <p className='description'>Measure your reflexes by reacting <br></br>to a visual cue.</p>
 
                         <button onClick={() => router.push('/reaction')}>Play Game</button>
                  

@@ -1,11 +1,13 @@
 .task-container {
   max-width:1350px;
-  margin: 50px auto;
+  margin: 60px auto;
   padding: 30px;
+  
   background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   animation: fadeIn 0.6s ease-in;
+  
 }
 
 .fade-in {

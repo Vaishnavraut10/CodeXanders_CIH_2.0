@@ -84,7 +84,7 @@ export default function BrainTask() {
   };
 
   return (
-    <div className="task-container fade-in">
+    <div className="task-container fade-in" >
       <h1 id='brain_task_challenge'>🧠 Brain Task Challenge</h1>
 
       <div className="task">

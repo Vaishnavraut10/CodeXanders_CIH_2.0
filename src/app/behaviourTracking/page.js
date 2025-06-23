@@ -103,12 +103,19 @@ export default function MoodPage() {
       <div className="section_container"></div>
 
       <nav>
-        <ul
+        <ul className="toggle_change"
           style={{
             display: "flex",
             listStyle: "none",
             padding: 0,
             marginLeft: "80px",
+            fontSize:"1.5rem",
+            background:"white",
+            color:"purple",
+            width:"20%",
+            padding:"8px 7px",
+            border: "1px solid black"
+
           }}
         >
           {roles.map((role) => (
@@ -118,7 +125,9 @@ export default function MoodPage() {
               style={{
                 marginRight: "20px",
                 cursor: "pointer",
-                fontWeight: activeRole === role ? "bold" : "normal",
+                color:"black",
+                background:activeRole === role ? "#6cecdf" : "",
+                padding:"10px 10px"
               }}
             >
               {role}

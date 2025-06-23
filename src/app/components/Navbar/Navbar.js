@@ -41,17 +41,17 @@ const Navbar = () => {
       <div class="Cognitia_features">
             <ul className="Cognitia_features_ul">
   <Link href="/dashboard" className="nav_link2">My Dashboard</Link>
- <FontAwesomeIcon icon={faAngleDown}  color="black"/>
+ <FontAwesomeIcon icon={faAngleDown} className="down_icon" color="black"/>
                   <Link href="/brainTask" className="nav_link2">Brain Task </Link>
-                  <FontAwesomeIcon icon={faAngleDown}  color="black" />
+                  <FontAwesomeIcon icon={faAngleDown} className="down_icon" color="black" />
        <Link href="/behaviourTracking" className="nav_link2">Track Behaviour</Link>
-       <FontAwesomeIcon icon={faAngleDown}  color="black" />
+       <FontAwesomeIcon icon={faAngleDown}  color="black" className="down_icon"/>
  <Link href="/cognitiveExercise" className="nav_link2">Cognitive Exercise</Link>
- <FontAwesomeIcon icon={faAngleDown}  color="black" />
+ <FontAwesomeIcon icon={faAngleDown} className="down_icon" color="black" />
                    <Link href="/cognitivegames" className="nav_link2" >Cognitive games</Link>
-                   <FontAwesomeIcon icon={faAngleDown}  color="black" />
+                   <FontAwesomeIcon icon={faAngleDown} className="down_icon" color="black" />
    <Link href="/about" className="nav_link2" >About us</Link>
-   <FontAwesomeIcon icon={faAngleDown}  color="black" />
+   <FontAwesomeIcon icon={faAngleDown} className="down_icon" color="black" />
             </ul>
       </div>
     </div>
