@@ -37,7 +37,7 @@ const router = useRouter();
                  
             </div>  
              </div>
-      </div>5
+      </div>
     </div>
   )
 }

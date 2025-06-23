@@ -30,29 +30,38 @@ export default function CognitiveTrendsDashboard() {
   }, []);
 
   return (
-    <div className="dashboard-container">
-      <p className="sub-heading">Track your game and task performance over the week</p>
-      <div class="dashboard_box_container">
-            <div class="dashboard_box">
-      <p>Quick Play</p>
-    </div>
-            <div class="dashboard_box">
-      <p>Current mood</p>
-    </div>
-      </div>
+    <div class="dashboard_main_cont">
+      <p className="sub-heading" style={{margin:"40px 0 0 100px"}}>
+          Track your game and task performance over the week
+        </p>
+    
+      <div className="dashboard-container">
+        
+        
 
-      <div className="card">
-        <ResponsiveContainer width="100%" height={300}>
-          <LineChart data={data}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="day" />
-            <YAxis domain={[0, 5]} />
-            <Tooltip />
-            <Legend />
-            <Line type="monotone" dataKey="games" stroke="#3498db" name="Cognitive Games" />
-            <Line type="monotone" dataKey="tasks" stroke="#2ecc71" name="Brain Tasks" />
-          </LineChart>
-        </ResponsiveContainer>
+        <div className="card">
+          <ResponsiveContainer width="100%" height={300}>
+            <LineChart data={data}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="day" />
+              <YAxis domain={[0, 5]} />
+              <Tooltip />
+              <Legend />
+              <Line
+                type="monotone"
+                dataKey="games"
+                stroke="#3498db"
+                name="Cognitive Games"
+              />
+              <Line
+                type="monotone"
+                dataKey="tasks"
+                stroke="#2ecc71"
+                name="Brain Tasks"
+              />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
       </div>
     </div>
   );

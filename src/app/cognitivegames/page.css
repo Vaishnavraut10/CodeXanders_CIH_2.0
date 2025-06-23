@@ -33,6 +33,10 @@
   padding-bottom: 70px;
   box-shadow: 5px 5px 6px rgb(197, 197, 197);
 }
+.box:hover{
+  transform: translateY(-30px);
+  transition: .6s ease-in-out;
+}
 .box img {
   width: 400px;
   height: 200px;

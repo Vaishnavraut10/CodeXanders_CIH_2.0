@@ -18,8 +18,8 @@
       align-items: center;
       background-color: white ;
       border-radius: 30px;
-      margin: -3px -300px 10px 0;
-      padding: 5px 20px;
+      margin: 10px -300px 10px 0;
+      padding: 1px 20px;
 }
 .home,.search,.helpline,.Signin_signup{
       display: flex;
@@ -39,6 +39,7 @@
         
       
 }
+
 .nav_link{
       text-decoration: none;
 }
@@ -46,6 +47,9 @@
       text-decoration: none;
       margin: 15px 45px 15px 13px;
       font-size: 20px;
+}
+.nav_link2:hover{
+      color: grey;
 }
 .app_name{
       font-size: 3rem;
@@ -56,8 +60,8 @@
       margin-left: -120px;
 }
 .app_name img{
-      width: 50px;
-      height: 50px;
+      width: 65px;
+      height: 65px;
       margin-right: 10px;
 }
 .Cognitia_features_ul{
@@ -79,6 +83,7 @@
 .Signin_signup{
       background-color: rgb(255, 183, 0); 
       border-radius: 20px;
+      height: 35px;
       
 }
 .dash{

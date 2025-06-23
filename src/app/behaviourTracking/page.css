@@ -81,7 +81,7 @@
       cursor: pointer;
 }
 .emoji-btn:hover{
-      transform: translateY(-15zpx);
+      transform: translateY(-15px);
       transition: .6s;
 }
 #log_behaviour{

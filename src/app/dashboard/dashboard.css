@@ -1,17 +1,25 @@
+.dashboard_main_cont{
+  width: 94%;
+  height: 100vh;
+  background-color: white;
+  margin: 70px 0 0 50px;
+  border-radius: 20px;
+
+}
+
 .dashboard-container {
   padding: 20px;
-  max-width: 600px;
+  max-width: 800px;
+  height: 300px;
   margin: auto;
   font-family: sans-serif;
 }
-.sub-heading{
-  margin-top: 40px;
-}
+
 
 .sub-heading {
-  margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 25px;
   color: #666;
+
 }
 
 .card {
@@ -20,3 +28,4 @@
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
