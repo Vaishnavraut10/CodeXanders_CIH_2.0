@@ -18,23 +18,27 @@
       display: flex;
       justify-content: space-around;
       
+      
 }
 .section{
       background-color: white;
-      width: 90%;
+      width: 95%;
       border-radius: 10px;
       padding: 50px 0;
-      margin: 0 0 0 80px;
+      margin: 0 0 0 40px;
 
       
 }
 #how_are_you_felling{
-      margin: -20px 0 12px 20px;
+      margin: -20px 0 20px 50px;
       font-size: 2.2rem;
 }
 #mood_select{
-      margin: 0 0 10px 20px;
+      margin: 0 0 20px 20px;
       border: 1px solid black;
+}
+#current_mood{
+      margin: 10px 0 40px 0;
 }
 .history{
       display: flex;
@@ -45,25 +49,44 @@
 .history_box{
       background-color: white;
 }
+.history_box h3{
+   font-size: 1.7rem;
+   margin: 20px 0 0 50px;
+}
 .emojis{
       border: 1px solid black;
-      padding: 60px;
+      padding:50px;
+      width: 83%;
+      margin-left: 70px;
       text-align: center;
       
 }
 #quote{
       margin: 10px ;
+      font-size: 1.5rem;
+      margin: 80px 0 20px 50px;
 }
 .textarea{
       width: 90%;
+      margin:  0 0 0 50px ;
+      padding: 15px 0 50px 10px;
+      font-size: 1.7rem;
 }
 .emoji-btn{
-      padding: 40px 40px;
+      padding: 30px 40px;
       margin: 10px;
+      font-size: 2rem;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+}
+.emoji-btn:hover{
+      transform: translateY(-15zpx);
+      transition: .6s;
 }
 #log_behaviour{
-      margin: 10px;
-      font-size: 1.2rem
+     margin: -20px 0 20px 50px;
+      font-size: 2.2rem;
 }
 #current_mood{
       font-size: 1.6rem;
@@ -72,4 +95,42 @@
 .toggle_change li:hover{
         background-color
         :rgb(235, 235, 235);
+}
+.time{
+      font-size: 1.5rem;
+      margin: 10px 0 0 50px;
+}
+#record_activity{
+     font-size: 1.6rem;
+      margin: 10px  0 30px 50px; 
+}
+#behaviour_activity_text{
+       font-size: 1.6rem;
+      margin: 10px  0 0 50px; 
+}
+.text-input{
+      width: 85%;
+      padding: 10px 0 60px 0;
+      margin: 5px 0 20px 50px;
+      font-size: 1.5rem;
+}
+#brief_description{
+      font-size: 1.4rem;
+      margin: 5px 0 20px 50px;
+}
+#optional_note{
+      margin: 0 0 0 50px;
+}
+#optional{
+      font-size: 1.4rem;
+      width: 85%;
+      padding: 10px 0 40px 0;
+      margin: 0 0 20px 50px;
+}
+.log-btn{
+      padding: 10px 25px;
+      background: blueviolet;
+      color: white;
+      font-size: 1.5rem;
+      margin: 10px 0 0 50px;
 }

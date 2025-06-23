@@ -30,9 +30,9 @@ export default function MoodPage() {
     Logmood: (
       <div className="section">
         <h3 id="how_are_you_felling">How are you feeling now?</h3>
-        <p id="current_mood">Select your current mood and add any relevant notes.</p>
+        <p id="current_mood" style={{margin:"10px 0 20px 50px"}}>Select your current mood and add any relevant notes.</p>
         <div className="emojis">
-          {["😊", "😐", "😢", "😠","😊", "😐", "😢", "😠",].map((e) => (
+          {["😊 HAPPY", "😐 LOST", "😢 CRYING", "😠 ANGRY",].map((e) => (
             <button
               key={e}
               className="emoji-btn"
@@ -66,10 +66,10 @@ export default function MoodPage() {
     LogBehaviour: (
       <div className="section">
         <p id="log_behaviour">Log a Behavior or Activity</p>
-        <p>
+        <p id="record_activity">
           Record significant activities, habits, or behaviors from your day.
         </p>
-        <h3>Behavior / Activity</h3>
+        <h3 id="behaviour_activity_text">Behavior / Activity</h3>
         <input
           type="text"
           value={behavior}
@@ -77,8 +77,8 @@ export default function MoodPage() {
           placeholder="e.g., Studied, Worked, Walked..."
           className="text-input"
         />
-        <p>A brief description of the behavior or activity.</p>
-        <p>Optional Notes</p>
+        <p id="brief_description">A brief description of the behavior or activity.</p>
+        <p className="optional_note" style={{margin:"10px 0 0 50px ",fontSize:"1.5rem"}}>Optional Notes</p>
         <textarea name="Optional" id="optional"></textarea>
         <button className="log-btn" onClick={handleLogBehavior}>
           Log Behavior
