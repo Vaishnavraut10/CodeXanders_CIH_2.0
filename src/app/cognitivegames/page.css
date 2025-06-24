@@ -52,7 +52,7 @@
   border-radius: 30px;
 }
 .box button:hover {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(179, 179, 179);
   color: black;
   cursor: pointer;
 }

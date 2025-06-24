@@ -10,7 +10,7 @@
 .hero_img img{
       width: 600px;
       height: 600px;
-      margin-left: 25px;
+      margin-left: 28px;
 }
 .hero_text p{
       font-size: 3.5rem;
@@ -28,4 +28,9 @@
       cursor: pointer;
       font-size: 20px;
       margin-left: 30px;
+      border-radius: 35px;
+}
+.track_now_btn:hover{
+      background-color: rgb(207, 207, 207);
+      color: black;
 }
